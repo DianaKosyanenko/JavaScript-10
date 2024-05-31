@@ -1,0 +1,52 @@
+.video{
+   height: 500px;
+   
+}
+
+
+.play{
+    background-image: url(https://cdn-icons-png.freepik.com/512/1055/1055007.png?ga=GA1.1.1833422417.1710521940);
+    height: 100px;
+    width: 100px;
+    background-size:contain;
+   
+}
+.pause{
+    background-image: url(/img/14025389.png);
+    height: 100px;
+    width: 100px;
+    background-size:contain;
+   
+}
+
+.btnStop {
+    width: 105px;
+    height: 105px;
+    background-size: cover;
+    background-image: url(img/player_stop_1081.png);
+    cursor: pointer;
+}
+
+.mainElem{
+    display: flex;
+    gap:10px;
+    margin-top: 30px;
+}
+
+.btnStopVolume{
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-image: url(/img/speaker_9432123.png);
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body{
+    background-color: rebeccapurple ;
+}
